@@ -66,7 +66,7 @@ export function Footer() {
             </div>
 
             <p className="mt-6 max-w-sm font-mono text-[0.64rem] uppercase leading-6 tracking-[0.15em] text-white/35">
-              Corevia MKT · Desarrollo web y marketing digital
+              {t.footer.slogan}
             </p>
           </div>
 
@@ -128,7 +128,7 @@ export function Footer() {
                   className="group block border-b border-white/10 pb-4"
                 >
                   <span className="block font-mono text-[0.55rem] uppercase tracking-[0.16em] text-white/30">
-                    Teléfono
+                    {t.contact.phone}
                   </span>
 
                   <span className="mt-1.5 block text-sm text-white/75 transition-colors group-hover:text-[#d8ff65]">
@@ -184,7 +184,7 @@ export function Footer() {
 
             <div className="relative flex h-full flex-col">
               <p className="font-mono text-[0.62rem] font-bold uppercase tracking-[0.19em] text-[#102e28]/55">
-                Información legal
+                {t.footer.legalInfo}
               </p>
 
               <div className="mt-6 flex flex-col">
@@ -207,7 +207,7 @@ export function Footer() {
 
               <div className="mt-8 border-t border-[#102e28]/15 pt-6 lg:mt-auto">
                 <p className="mb-4 font-mono text-[0.56rem] font-bold uppercase tracking-[0.16em] text-[#102e28]/45">
-                  Métodos de pago
+                  {t.footer.payment}
                 </p>
 
                 <div className="flex items-center gap-2.5">

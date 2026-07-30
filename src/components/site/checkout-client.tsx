@@ -255,7 +255,7 @@ export function CheckoutClient() {
         description: `${t.checkout.toastFolio} ${result.orderId}`,
       });
     } else {
-      toast.error("Error en el pago", {
+      toast.error(t.alerts.paymentError, {
         description: result.error,
       });
     }
@@ -635,11 +635,11 @@ export function CheckoutClient() {
 
                   <div>
                     <p className="text-sm font-semibold text-[#102e28]">
-                      Pago encriptado y seguro
+                      {t.checkout.securePaymentTitle}
                     </p>
 
                     <p className="mt-0.5 text-xs text-[#61736d]">
-                      Tus datos viajan mediante una conexión protegida.
+                      {t.checkout.securePaymentDescription}
                     </p>
                   </div>
                 </div>

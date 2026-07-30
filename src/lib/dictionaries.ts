@@ -2,6 +2,10 @@ export type Language = "es" | "en";
 
 export const dictionaries = {
   es: {
+    alerts: {
+      paymentError: "Error en el pago",
+      contactError: "Ocurrió un problema al enviar el mensaje. Intenta de nuevo.",
+    },
     header: {
       ticker: [
         "Diseño profesional",
@@ -22,6 +26,9 @@ export const dictionaries = {
     },
 
     footer: {
+      legalInfo: "Información Legal",
+      slogan: "Corevia MKT · Desarrollo web y marketing digital",
+      payment: "Métodos de pago",
       bigLinks: [
         { href: "/", label: "Home" },
         { href: "/servicios", label: "Servicios" },
@@ -199,6 +206,8 @@ export const dictionaries = {
     },
 
     checkout: {
+      securePaymentTitle: "Pago encriptado y seguro",
+      securePaymentDescription: "Tus datos viajan mediante una conexión protegida.",
       eyebrow: "Checkout",
       title: "Finalizar compra",
       contactSec: "Contacto",
@@ -288,6 +297,10 @@ export const dictionaries = {
   },
 
   en: {
+    alerts: {
+      paymentError: "Payment error!",
+      contactError: "There was a problem to send the message, please try again.",
+    },
     header: {
       ticker: [
         "Professional Design",
@@ -308,6 +321,9 @@ export const dictionaries = {
     },
 
     footer: {
+      slogan: "Corevia MKT · Web development and Digital Marketing",
+      payment: "Payment Methods",
+      legalInfo: "Legal Information",
       bigLinks: [
         { href: "/", label: "Home" },
         { href: "/servicios", label: "Services" },
@@ -486,6 +502,8 @@ export const dictionaries = {
     },
 
     checkout: {
+      securePaymentTitle: "Secure encrypted payment",
+      securePaymentDescription: "Your data travel trought secure and encrypted connection.",
       eyebrow: "Checkout",
       title: "Finalize Order",
       contactSec: "Contact Info",

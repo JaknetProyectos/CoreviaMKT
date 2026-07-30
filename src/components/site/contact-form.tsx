@@ -120,7 +120,7 @@ export function ContactForm() {
     } else {
       toast.error("Error", {
         description:
-          "Ocurrió un problema al enviar el mensaje. Intenta de nuevo.",
+          t.alerts.contactError,
       });
     }
   };

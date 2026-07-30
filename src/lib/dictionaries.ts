@@ -18,8 +18,9 @@ export const dictionaries = {
       cta: "Hablemos del proyecto",
       cartAria: "Abrir carrito",
       menuAria: "Abrir menú",
-      contactEmail: "hola@growthive.com.mx",
+      contactEmail: "hola@coreviamkt.com",
     },
+
     footer: {
       bigLinks: [
         { href: "/", label: "Home" },
@@ -35,9 +36,11 @@ export const dictionaries = {
       addressEyebrow: "Dirección",
       addressText:
         "Av. Chapultepec No. 480, Piso 9, Col. Roma Norte, C.P. 06700, Alcaldía Cuauhtémoc, CDMX.",
-      copyright: "© 2026 Growthive.com.mx — Hecho con intención en México.",
+      copyright:
+        "© 2026 CoreviaMKT.com — Creado con intención en México.",
       studio: "Estudio digital",
     },
+
     hero: {
       eyebrow: "Estudio digital — CDMX",
       est: "Est. 2026 — ©",
@@ -49,17 +52,17 @@ export const dictionaries = {
         "Identidad digital",
         "Experiencias ecommerce",
       ],
-      titlePart1: "Grow",
-      titlePart2: "thive",
+      titlePart1: "Corevia",
+      titlePart2: "MKT",
       deliveryText: "Diseño profesional,\nentrega 100% en línea.",
-
     },
+
     about: {
       eyebrow: "Sobre nosotros",
       titlePart1: "Bienvenido a tu",
       titlePart2: "próximo proyecto digital.",
-      p1: "Creamos soluciones digitales que ayudan a emprendedores, negocios y empresas a tener una presencia profesional en internet.",
-      p2: "Transformamos tus ideas en plataformas funcionales, modernas y escalables, adaptadas a las necesidades reales de tu negocio. Trabajamos 100% en línea, lo que nos permite ofrecer soluciones eficientes y accesibles sin importar dónde te encuentres.",
+      p1: "Diseñamos soluciones digitales que permiten a emprendedores, negocios y empresas construir una presencia profesional en internet.",
+      p2: "Convertimos tus ideas en plataformas modernas, funcionales y escalables, creadas según las necesidades concretas de tu negocio. Trabajamos completamente en línea para ofrecer procesos ágiles y accesibles, sin importar el lugar donde te encuentres.",
       ctaBtn: "Conocer más",
       servicesIncludedEyebrow: "Nuestros servicios incluyen",
       servicesList: [
@@ -74,56 +77,76 @@ export const dictionaries = {
       onlineBadgeLine1: "100%",
       onlineBadgeLine2: "en línea",
     },
+
     services: {
       eyebrow: "Servicios",
       title: "Soluciones que impulsan tu marca.",
-      desc: "Cada proyecto se desarrolla con enfoque en funcionalidad, diseño moderno y experiencia de usuario.",
+      desc: "Desarrollamos cada proyecto priorizando la funcionalidad, una estética moderna y una experiencia de usuario clara.",
       items: [
         {
           n: "01",
           title: "Páginas Web",
-          desc: "Sitios profesionales adaptados a tu negocio, con diseño moderno y entrega 100% en línea.",
+          desc: "Sitios profesionales creados para tu negocio, con una imagen moderna y un proceso de entrega completamente en línea.",
         },
         {
           n: "02",
           title: "Tienda en Línea",
-          desc: "Ecommerce funcional con carrito, pasarelas de pago y panel administrador incluidos.",
+          desc: "Ecommerce completo con carrito de compra, métodos de pago y panel administrativo listo para operar.",
         },
         {
           n: "03",
           title: "Plataformas Web",
-          desc: "Portales inmobiliarios, de empleo o cursos online, desarrollados a la medida.",
+          desc: "Portales inmobiliarios, bolsas de trabajo o sistemas de cursos desarrollados según tus necesidades.",
         },
         {
           n: "04",
           title: "Marca + Web",
-          desc: "Logotipo profesional y sitio web en un solo paquete, desde emprendedor hasta empresarial.",
+          desc: "Identidad visual profesional y página web integradas en un paquete para proyectos de cualquier tamaño.",
         },
         {
           n: "05",
           title: "Web + Marketing",
-          desc: "Sitio web con SEO, Google Ads y analítica configurados desde el primer día.",
+          desc: "Página web preparada con SEO, campañas de Google Ads y analítica configurada desde el lanzamiento.",
         },
       ],
     },
+
     process: {
       eyebrow: "Nuestro proceso",
       titlePart1: "Proceso de",
       titlePart2: "Desarrollo",
-      desc: "Un método claro y transparente que convierte ideas en productos digitales que funcionan. Sin sorpresas, marcando la diferencia en cada etapa.",
+      desc: "Una metodología clara y ordenada que transforma ideas en productos digitales funcionales. Cada etapa se desarrolla con transparencia, objetivos definidos y resultados medibles.",
       steps: [
-        { n: "01", title: "Análisis", desc: "Entendemos tu negocio, objetivos y usuarios." },
-        { n: "02", title: "Diseño", desc: "Creamos una interfaz a la medida de tu marca." },
-        { n: "03", title: "Desarrollo", desc: "Construimos rápido, escalable y optimizado." },
-        { n: "04", title: "Entrega", desc: "Lanzamos, medimos y te acompañamos." },
+        {
+          n: "01",
+          title: "Análisis",
+          desc: "Conocemos tu negocio, tus metas y las necesidades de tus usuarios.",
+        },
+        {
+          n: "02",
+          title: "Diseño",
+          desc: "Diseñamos una interfaz alineada con la personalidad de tu marca.",
+        },
+        {
+          n: "03",
+          title: "Desarrollo",
+          desc: "Construimos una solución rápida, escalable y bien optimizada.",
+        },
+        {
+          n: "04",
+          title: "Entrega",
+          desc: "Publicamos, evaluamos resultados y continuamos acompañándote.",
+        },
       ],
       ctaBtn: "Marcando la diferencia",
       orbitCenterText: "Iniciar",
     },
+
     ctaBand: {
       word: "Hablemos",
       btnText: "Iniciar proyecto",
     },
+
     store: {
       allFilter: "Todos",
       plansCountLabel: "planes",
@@ -134,11 +157,13 @@ export const dictionaries = {
       addedToastTitle: "Agregado al carrito",
       viewCartBtn: "Ver carrito",
     },
+
     cart: {
       title: "Carrito",
       selection: "Tu selección",
       emptyTitle: "Tu carrito está vacío",
-      emptyDesc: "Explora nuestros planes y arma tu proyecto digital.",
+      emptyDesc:
+        "Revisa nuestros planes y comienza a construir tu siguiente proyecto digital.",
       viewServices: "Ver servicios",
       subtotal: "Subtotal",
       total: "Total",
@@ -146,6 +171,7 @@ export const dictionaries = {
       clearBtn: "Vaciar carrito",
       removeAria: "Eliminar",
     },
+
     contact: {
       fullName: "Nombre completo",
       namePlaceholder: "Tu nombre",
@@ -156,20 +182,22 @@ export const dictionaries = {
       subject: "Asunto",
       subjectPlaceholder: "Sobre qué quieres hablar",
       message: "Mensaje",
-      msgPlaceholder: "Cuéntanos sobre tu proyecto...",
+      msgPlaceholder: "Cuéntanos los detalles de tu proyecto...",
       submitBtn: "Enviar ahora",
       sending: "Enviando",
       errName: "Escribe tu nombre",
       errEmail: "Correo no válido",
       errMsg: "Cuéntanos un poco más (mín. 5 caracteres)",
       toastTitle: "Revisa el formulario",
-      toastDesc: "Algunos campos necesitan tu atención.",
+      toastDesc: "Algunos campos requieren que los revises.",
       sentToastTitle: "Mensaje enviado",
-      sentToastDesc: "Gracias, te contactaremos muy pronto.",
+      sentToastDesc: "Gracias, nos comunicaremos contigo muy pronto.",
       successTitle: "¡Mensaje enviado!",
-      successDesc: "Gracias por escribirnos. Revisaremos tu proyecto y te enviaremos una propuesta personalizada muy pronto.",
+      successDesc:
+        "Gracias por contactarnos. Analizaremos tu proyecto y pronto te enviaremos una propuesta adaptada a tus necesidades.",
       sendAnother: "Enviar otro mensaje",
     },
+
     checkout: {
       eyebrow: "Checkout",
       title: "Finalizar compra",
@@ -187,14 +215,16 @@ export const dictionaries = {
       state: "Estado",
       zip: "Código postal",
       country: "País",
-      demoNotice: "Pago de demostración seguro — no se realizará ningún cargo real.",
+      demoNotice:
+        "Entorno seguro de pago demostrativo — no se efectuará ningún cargo real.",
       cardNumber: "Número de tarjeta",
       cardName: "Nombre en la tarjeta",
-      cardNamePlaceholder: "Como aparece en la tarjeta",
+      cardNamePlaceholder: "Tal como aparece en la tarjeta",
       exp: "Vencimiento",
       cvc: "CVC",
       notes: "Notas del pedido (opcional)",
-      notesPlaceholder: "Cuéntanos cualquier detalle relevante de tu proyecto...",
+      notesPlaceholder:
+        "Comparte cualquier información importante sobre tu proyecto...",
       summaryEyebrow: "Resumen del pedido",
       processing: "Procesando",
       placeOrder: "Realizar pedido",
@@ -204,39 +234,44 @@ export const dictionaries = {
       digits5: "5 dígitos",
       incompleteNum: "Número incompleto",
       toastReview: "Revisa tus datos",
-      toastReviewDesc: "Faltan campos por completar.",
+      toastReviewDesc: "Todavía existen campos pendientes por completar.",
       toastConfirmed: "Pedido confirmado",
       toastFolio: "Folio",
       successThankYou: "¡Gracias por tu pedido!",
-      successDesc: "Hemos recibido tu solicitud. En breve te contactaremos para iniciar tu proyecto y coordinar los siguientes pasos.",
+      successDesc:
+        "Tu solicitud fue recibida correctamente. Muy pronto nos pondremos en contacto para comenzar el proyecto y definir los próximos pasos.",
       folioLabel: "Folio",
       totalPaid: "Total pagado",
       exploreMore: "Seguir explorando",
       backHome: "Volver al inicio",
       emptyTitle: "Tu carrito está vacío",
-      emptyDesc: "Agrega un plan para continuar con el proceso de compra.",
+      emptyDesc:
+        "Selecciona uno de nuestros planes para continuar con el proceso de compra.",
       viewServices: "Ver servicios",
     },
+
     contactPage: {
       eyebrow: "¿Tienes un proyecto?",
       titlePart1: "Habl",
       titlePart2: "emos",
-      desc: "Si tienes una idea, un proyecto o simplemente deseas más información sobre nuestros servicios, estaremos encantados de escucharte. Completa el formulario y te enviaremos una propuesta personalizada.",
+      desc: "Si tienes una idea, un proyecto o necesitas conocer mejor nuestros servicios, queremos escucharte. Completa el formulario y prepararemos una propuesta personalizada para ti.",
       payBtn: "Pagar mi proyecto",
       detailsLabelPhone: "Teléfono",
       detailsLabelEmail: "Correo",
       detailsLabelAddress: "Dirección",
     },
+
     servicesPage: {
       eyebrow: "Servicios",
       titlePart1: "Soluciones diseñadas para tu ",
       titlePart2: "negocio.",
-      desc: "Elige el plan que mejor se adapte a tu etapa. Cada paquete incluye diseño profesional y entrega 100% en línea, con precios claros en pesos mexicanos.",
+      desc: "Selecciona el plan adecuado para la etapa de tu negocio. Todos incluyen diseño profesional, atención completamente en línea y precios transparentes en pesos mexicanos.",
     },
+
     customPayment: {
       title1: "Realiza tu pago",
       title2: "A tu medida",
-      desc: "Ingresa los datos de tu proyecto y el monto acordado para generar tu orden de pago segura.",
+      desc: "Captura la información de tu proyecto y el importe acordado para crear una orden de pago de forma segura.",
       nameLabel: "Nombre",
       emailLabel: "Correo",
       refLabel: "# De pago personalizado",
@@ -248,9 +283,10 @@ export const dictionaries = {
       errEmail: "Correo inválido",
       errRef: "Ingresa el concepto",
       errAmount: "Ingresa un monto válido",
-      toastAdded: "Pago agregado al carrito"
+      toastAdded: "Pago agregado al carrito",
     },
   },
+
   en: {
     header: {
       ticker: [
@@ -268,8 +304,9 @@ export const dictionaries = {
       cta: "Let's talk about your project",
       cartAria: "Open cart",
       menuAria: "Open menu",
-      contactEmail: "hola@growthive.com.mx",
+      contactEmail: "hola@coreviamkt.com",
     },
+
     footer: {
       bigLinks: [
         { href: "/", label: "Home" },
@@ -285,9 +322,11 @@ export const dictionaries = {
       addressEyebrow: "Address",
       addressText:
         "Av. Chapultepec No. 480, 9th Floor, Col. Roma Norte, C.P. 06700, Cuauhtémoc, Mexico City.",
-      copyright: "© 2026 Growthive.com.mx — Crafted with intention in Mexico.",
+      copyright:
+        "© 2026 CoreviaMKT.com — Thoughtfully created in Mexico.",
       studio: "Digital Studio",
     },
+
     hero: {
       eyebrow: "Digital Studio — CDMX",
       est: "Est. 2026 — ©",
@@ -299,17 +338,18 @@ export const dictionaries = {
         "Digital identities",
         "Ecommerce experiences",
       ],
-      titlePart1: "Grow",
-      titlePart2: "thive",
+      titlePart1: "Core",
+      titlePart2: "via",
       deliveryText: "Professional design,\n100% online delivery.",
       ctaBtn: "Start project",
     },
+
     about: {
       eyebrow: "About us",
       titlePart1: "Welcome to your",
       titlePart2: "next digital project.",
-      p1: "We create digital solutions that empower entrepreneurs, brands, and businesses to build a formidable online presence.",
-      p2: "We turn your ideas into functional, modern, and scalable platforms tailored to your business needs. Operating 100% online allows us to deliver highly efficient and accessible solutions wherever you are.",
+      p1: "We build digital solutions that help entrepreneurs, brands, and companies establish a polished and professional presence online.",
+      p2: "We transform your ideas into modern, functional, and scalable platforms shaped around your business requirements. Working entirely online enables us to provide efficient and accessible solutions wherever you are.",
       ctaBtn: "Learn more",
       servicesIncludedEyebrow: "Our services include",
       servicesList: [
@@ -324,56 +364,76 @@ export const dictionaries = {
       onlineBadgeLine1: "100%",
       onlineBadgeLine2: "online",
     },
+
     services: {
       eyebrow: "Services",
       title: "Solutions that elevate your brand.",
-      desc: "Every project is developed with a laser focus on high performance, modern aesthetic, and seamless user experience.",
+      desc: "Every project is created around reliable functionality, contemporary design, and a smooth, intuitive user experience.",
       items: [
         {
           n: "01",
           title: "Websites",
-          desc: "Professional sites tailored to your business, featuring cutting-edge design and 100% online delivery.",
+          desc: "Professional websites built around your business, with modern visuals and a fully online delivery process.",
         },
         {
           n: "02",
           title: "Online Store",
-          desc: "High-converting ecommerce equipped with shopping cart, secure payment gateways, and admin dashboard.",
+          desc: "Complete ecommerce solutions featuring a shopping cart, secure payments, and an easy-to-use admin dashboard.",
         },
         {
           n: "03",
           title: "Web Platforms",
-          desc: "Real estate portals, job boards, or custom online course ecosystems engineered to scale.",
+          desc: "Real estate portals, job boards, or online learning platforms developed around your specific requirements.",
         },
         {
           n: "04",
           title: "Brand + Web",
-          desc: "Complete visual identity and bespoke website in one streamlined package, from startup to enterprise.",
+          desc: "Professional visual identity and a custom website combined into one package for brands of every size.",
         },
         {
           n: "05",
           title: "Web + Marketing",
-          desc: "Performant website pre-configured with technical SEO, Google Ads readiness, and analytics day one.",
+          desc: "A high-performance website prepared with SEO, Google Ads integration, and analytics from the initial launch.",
         },
       ],
     },
+
     process: {
       eyebrow: "Our process",
       titlePart1: "Development",
       titlePart2: "Process",
-      desc: "A transparent, structured methodology that transforms concepts into robust digital products. No guesswork—just impact at every phase.",
+      desc: "A structured and transparent approach that turns ideas into effective digital products. Every stage is guided by clear goals, communication, and measurable progress.",
       steps: [
-        { n: "01", title: "Discovery", desc: "We deep-dive into your business, goals, and target users." },
-        { n: "02", title: "Design", desc: "We craft a tailored interface aligned with your brand voice." },
-        { n: "03", title: "Development", desc: "We engineer fast, scalable, and fully optimized code." },
-        { n: "04", title: "Launch", desc: "We deploy, measure performance, and provide dedicated support." },
+        {
+          n: "01",
+          title: "Discovery",
+          desc: "We explore your business, objectives, and audience requirements.",
+        },
+        {
+          n: "02",
+          title: "Design",
+          desc: "We create a custom interface that reflects your brand identity.",
+        },
+        {
+          n: "03",
+          title: "Development",
+          desc: "We build a fast, scalable, and thoroughly optimized solution.",
+        },
+        {
+          n: "04",
+          title: "Launch",
+          desc: "We launch, review performance, and continue supporting your team.",
+        },
       ],
       ctaBtn: "Making the difference",
       orbitCenterText: "Start",
     },
+
     ctaBand: {
       word: "Let's Talk",
       btnText: "Start project",
     },
+
     store: {
       allFilter: "All",
       plansCountLabel: "plans",
@@ -384,11 +444,13 @@ export const dictionaries = {
       addedToastTitle: "Added to cart",
       viewCartBtn: "View cart",
     },
+
     cart: {
       title: "Cart",
       selection: "Your selection",
       emptyTitle: "Your cart is empty",
-      emptyDesc: "Explore our digital plans and start building your next project.",
+      emptyDesc:
+        "Browse our digital plans and begin shaping your next online project.",
       viewServices: "View services",
       subtotal: "Subtotal",
       total: "Total",
@@ -396,6 +458,7 @@ export const dictionaries = {
       clearBtn: "Clear cart",
       removeAria: "Remove item",
     },
+
     contact: {
       fullName: "Full Name",
       namePlaceholder: "Your name",
@@ -406,20 +469,22 @@ export const dictionaries = {
       subject: "Subject",
       subjectPlaceholder: "What would you like to discuss?",
       message: "Message",
-      msgPlaceholder: "Tell us about your project requirements...",
+      msgPlaceholder: "Tell us more about your project requirements...",
       submitBtn: "Send message",
       sending: "Sending",
       errName: "Please enter your name",
       errEmail: "Invalid email address",
       errMsg: "Please provide a bit more detail (min. 5 characters)",
       toastTitle: "Check the form",
-      toastDesc: "Some fields require your attention.",
+      toastDesc: "A few fields still require your attention.",
       sentToastTitle: "Message sent",
-      sentToastDesc: "Thank you, we will get back to you shortly.",
+      sentToastDesc: "Thank you, our team will contact you shortly.",
       successTitle: "Message sent!",
-      successDesc: "Thank you for reaching out. We will review your project and send you a custom proposal shortly.",
+      successDesc:
+        "Thank you for contacting us. We will review your project and prepare a tailored proposal for you shortly.",
       sendAnother: "Send another message",
     },
+
     checkout: {
       eyebrow: "Checkout",
       title: "Finalize Order",
@@ -437,14 +502,16 @@ export const dictionaries = {
       state: "State / Province",
       zip: "Postal / ZIP Code",
       country: "Country",
-      demoNotice: "Secure demo payment environment — no actual credit card charges will be made.",
+      demoNotice:
+        "Secure demonstration payment environment — no actual card charges will be processed.",
       cardNumber: "Card Number",
       cardName: "Cardholder Name",
-      cardNamePlaceholder: "Name as shown on card",
+      cardNamePlaceholder: "Name exactly as shown on card",
       exp: "Expiration",
       cvc: "CVC",
       notes: "Order Notes (optional)",
-      notesPlaceholder: "Any special requirements or instructions for your project...",
+      notesPlaceholder:
+        "Share any important requirements or instructions for your project...",
       summaryEyebrow: "Order Summary",
       processing: "Processing",
       placeOrder: "Place Order",
@@ -454,39 +521,44 @@ export const dictionaries = {
       digits5: "5 digits",
       incompleteNum: "Incomplete card number",
       toastReview: "Check your information",
-      toastReviewDesc: "Some required fields are missing.",
+      toastReviewDesc: "Some required fields still need to be completed.",
       toastConfirmed: "Order Confirmed",
       toastFolio: "Folio",
       successThankYou: "Thank you for your order!",
-      successDesc: "We have successfully received your request. Our team will contact you shortly to begin your project.",
+      successDesc:
+        "Your request has been successfully received. Our team will contact you shortly to begin the project and coordinate the next steps.",
       folioLabel: "Folio ID",
       totalPaid: "Total Paid",
       exploreMore: "Keep exploring",
       backHome: "Back to Home",
       emptyTitle: "Your cart is empty",
-      emptyDesc: "Add a plan to proceed with the checkout process.",
+      emptyDesc:
+        "Select one of our plans to continue with the checkout process.",
       viewServices: "View services",
     },
+
     contactPage: {
       eyebrow: "Have a project?",
       titlePart1: "Let's ",
       titlePart2: "Talk",
-      desc: "If you have an idea, a project, or simply want more information about our services, we'd love to hear from you. Fill out the form and we'll send you a custom proposal.",
+      desc: "Whether you have an idea, an active project, or need more information about our services, we would like to hear from you. Complete the form and we will prepare a tailored proposal.",
       payBtn: "Pay for my project",
       detailsLabelPhone: "Phone",
       detailsLabelEmail: "Email",
       detailsLabelAddress: "Address",
     },
+
     servicesPage: {
       eyebrow: "Services",
       titlePart1: "Solutions designed for your ",
       titlePart2: "business.",
-      desc: "Choose the plan that best fits your stage. Each package includes professional design and 100% online delivery, with clear pricing.",
+      desc: "Select the plan that matches your current stage. Every package includes professional design, a fully online process, and clear, transparent pricing.",
     },
+
     customPayment: {
       title1: "Make your",
       title2: "Custom payment",
-      desc: "Enter your project details and the agreed amount to generate your secure payment order.",
+      desc: "Enter your project information and the agreed amount to create a secure payment order.",
       nameLabel: "Name",
       emailLabel: "Email",
       refLabel: "Custom payment # / Concept",
@@ -498,7 +570,7 @@ export const dictionaries = {
       errEmail: "Invalid email",
       errRef: "Enter the reference",
       errAmount: "Enter a valid amount",
-      toastAdded: "Payment added to cart"
+      toastAdded: "Payment added to cart",
     },
   },
 };

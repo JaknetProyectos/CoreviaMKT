@@ -7,16 +7,19 @@ export default function PrivacidadPage() {
 
   const content = {
     es: {
+      brand: "Corevia MKT",
+      label: "Información legal",
       title: "Aviso de Privacidad",
       date: "Fecha de última actualización: Julio de 2026",
+      contactLabel: "Contacto de privacidad",
       sections: [
         {
           title: "A. Identidad y domicilio del responsable",
           body: [
-            "DIMMER POWER SHOPS, S.A DE C.V. (en lo sucesivo, “la Empresa”), con domicilio en Av. Chapultepec N°480 Piso 9 Dep. 901, Col. Roma Norte, C.P. 06700, Alcaldía Cuauhtémoc Ciudad de México, es responsable del tratamiento de los datos personales que nos proporcione con motivo del uso del sitio web GROWTHIVE.COM.MX y de la contratación de nuestros servicios digitales.",
-            "Para cualquier asunto relacionado con este Aviso de Privacidad, usted puede comunicarse al correo electrónico hola@growthive.com.mx y al teléfono [+52] 1 55 5088 5510.",
-            "Este Aviso se emite en cumplimiento de la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, su Reglamento y los Lineamientos del Aviso de Privacidad."
-          ]
+            "DIMMER POWER SHOPS, S.A. DE C.V. (en lo sucesivo, “la Empresa”), con domicilio en Av. Chapultepec N°480 Piso 9 Dep. 901, Col. Roma Norte, C.P. 06700, Alcaldía Cuauhtémoc, Ciudad de México, es responsable del tratamiento de los datos personales que nos proporcione con motivo del uso del sitio web COREVIAMKT.COM y de la contratación de nuestros servicios digitales.",
+            "Para cualquier asunto relacionado con este Aviso de Privacidad, usted puede comunicarse al correo electrónico hola@coreviamkt.com y al teléfono [+52] 1 55 5088 5510.",
+            "Este Aviso se emite en cumplimiento de la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, su Reglamento y los Lineamientos del Aviso de Privacidad.",
+          ],
         },
         {
           title: "B. Datos personales que recabamos",
@@ -27,8 +30,8 @@ export default function PrivacidadPage() {
             "• Datos de facturación: RFC, razón social, domicilio fiscal, uso de CFDI.",
             "• Datos de contratación: servicios o planes de interés, historial de cotizaciones, proyectos contratados, montos y fechas de pago.",
             "• Datos de navegación: dirección IP, tipo de navegador, sistema operativo, páginas visitadas, tiempo de permanencia, cookies y tecnologías similares.",
-            "En principio, la Empresa no solicita datos personales sensibles; en caso de que, de manera excepcional, sea necesario recabar este tipo de datos, se solicitará su consentimiento expreso y por escrito en términos de la legislación aplicable."
-          ]
+            "En principio, la Empresa no solicita datos personales sensibles; en caso de que, de manera excepcional, sea necesario recabar este tipo de datos, se solicitará su consentimiento expreso y por escrito en términos de la legislación aplicable.",
+          ],
         },
         {
           title: "C. Finalidades del tratamiento",
@@ -46,18 +49,18 @@ export default function PrivacidadPage() {
             "• Enviarle comunicaciones comerciales relacionadas con nuevos planes, promociones, contenidos, eventos o actualizaciones sobre nuestros servicios digitales.",
             "• Realizar encuestas de satisfacción y estudios internos sobre calidad del servicio y mejora de procesos.",
             "• Elaborar estadísticas y reportes internos sobre hábitos de contratación y uso del sitio.",
-            "Si usted no desea que sus datos sean tratados para estas finalidades secundarias, podrá manifestarlo en cualquier momento enviando un correo a hola@growthive.com.mx con el asunto “Limitación de finalidades secundarias”. Su negativa no será motivo para que le neguemos los servicios contratados."
-          ]
+            "Si usted no desea que sus datos sean tratados para estas finalidades secundarias, podrá manifestarlo en cualquier momento enviando un correo a hola@coreviamkt.com con el asunto “Limitación de finalidades secundarias”. Su negativa no será motivo para que le neguemos los servicios contratados.",
+          ],
         },
         {
           title: "D. Uso de cookies y tecnologías similares",
           body: [
-            "El sitio growthive.com.mx utiliza cookies y tecnologías similares que permiten:",
+            "El sitio coreviamkt.com utiliza cookies y tecnologías similares que permiten:",
             "• Facilitar la navegación y recordar ciertas preferencias del usuario.",
             "• Analizar el tráfico y desempeño del sitio.",
             "• Identificar secciones de mayor interés para mejorar contenidos y experiencia de usuario.",
-            "Usted puede deshabilitar o eliminar las cookies a través de la configuración de su navegador; sin embargo, ciertas funciones del sitio podrían no operar correctamente si lo hace."
-          ]
+            "Usted puede deshabilitar o eliminar las cookies a través de la configuración de su navegador; sin embargo, ciertas funciones del sitio podrían no operar correctamente si lo hace.",
+          ],
         },
         {
           title: "E. Transferencias de datos personales",
@@ -67,65 +70,68 @@ export default function PrivacidadPage() {
             "• Proveedores de servicios de pago y pasarelas en línea, para procesar transacciones con tarjeta de crédito o débito o medios electrónicos.",
             "• Asesores externos (contables, fiscales, legales, auditoría) para el cumplimiento de obligaciones legales.",
             "• Autoridades competentes, cuando una ley, reglamento u orden judicial así lo exijan.",
-            "En todos los casos, la Empresa procurará que los terceros mantengan la confidencialidad de la información y la utilicen únicamente para las finalidades señaladas en este Aviso, adoptando las medidas de seguridad que resulten aplicables. Las transferencias distintas a las anteriores que requieran su consentimiento serán puestas en su conocimiento previamente, a fin de recabarlo según exija la ley."
-          ]
+            "En todos los casos, la Empresa procurará que los terceros mantengan la confidencialidad de la información y la utilicen únicamente para las finalidades señaladas en este Aviso, adoptando las medidas de seguridad que resulten aplicables. Las transferencias distintas a las anteriores que requieran su consentimiento serán puestas en su conocimiento previamente, a fin de recabarlo según exija la ley.",
+          ],
         },
         {
           title: "F. Medios y procedimiento para ejercer Derechos ARCO",
           body: [
             "Como titular de los datos personales, usted puede ejercer en cualquier momento sus derechos de Acceso, Rectificación, Cancelación y Oposición (ARCO), así como revocar el consentimiento otorgado, en los términos previstos por la Ley.",
             "Para ejercer dichos derechos, deberá enviar una solicitud a:",
-            "Correo electrónico: hola@growthive.com.mx",
-            "Domicilio: Av. Chapultepec N°480 Piso 9 Dep. 901, Col. Roma Norte, C.P. 06700, Alcaldía Cuauhtémoc Ciudad de México",
+            "Correo electrónico: hola@coreviamkt.com",
+            "Domicilio: Av. Chapultepec N°480 Piso 9 Dep. 901, Col. Roma Norte, C.P. 06700, Alcaldía Cuauhtémoc, Ciudad de México",
             "Su solicitud deberá contener, al menos:",
             "• Nombre completo y un medio para comunicarle la respuesta (domicilio, correo electrónico o número telefónico).",
             "• Copia de un documento que acredite su identidad o, en su caso, la representación legal (credencial oficial, poder, etc.).",
             "• Descripción clara y precisa de los datos personales respecto de los que busca ejercer alguno de los derechos ARCO.",
             "• Cualquier elemento que facilite la localización de los datos (por ejemplo, fecha de contratación, número de proyecto, correo utilizado).",
             "• En caso de rectificación, la descripción de las modificaciones a realizarse y la documentación que sustente su petición.",
-            "La Empresa acusará de recibido su solicitud en los plazos que fija la ley y dará respuesta dentro del término legal correspondiente, informando si la misma resulta procedente."
-          ]
+            "La Empresa acusará de recibido su solicitud en los plazos que fija la ley y dará respuesta dentro del término legal correspondiente, informando si la misma resulta procedente.",
+          ],
         },
         {
           title: "G. Opciones para limitar el uso o divulgación de sus datos",
           body: [
-            "Además del ejercicio de derechos ARCO, usted puede limitar el uso o divulgación de sus datos personales con fines promocionales mediante una comunicación dirigida a hola@growthive.com.mx indicando su nombre completo y el alcance de la limitación solicitada (por ejemplo, “no deseo recibir correos promocionales”).",
-            "La Empresa incorporará su registro a las listas internas de exclusión correspondientes para evitar el envío de comunicaciones con esas características."
-          ]
+            "Además del ejercicio de derechos ARCO, usted puede limitar el uso o divulgación de sus datos personales con fines promocionales mediante una comunicación dirigida a hola@coreviamkt.com indicando su nombre completo y el alcance de la limitación solicitada (por ejemplo, “no deseo recibir correos promocionales”).",
+            "La Empresa incorporará su registro a las listas internas de exclusión correspondientes para evitar el envío de comunicaciones con esas características.",
+          ],
         },
         {
           title: "H. Seguridad de la información",
           body: [
             "La Empresa implementa medidas de seguridad administrativas, técnicas y físicas para proteger sus datos personales contra daño, pérdida, alteración, destrucción o el uso, acceso o tratamiento no autorizado.",
-            "Entre otras, se aplican controles de acceso a la información, uso de conexiones seguras en los sistemas que lo requieren, políticas internas de manejo de datos y acuerdos de confidencialidad con personal y proveedores que tienen contacto con la información."
-          ]
+            "Entre otras, se aplican controles de acceso a la información, uso de conexiones seguras en los sistemas que lo requieren, políticas internas de manejo de datos y acuerdos de confidencialidad con personal y proveedores que tienen contacto con la información.",
+          ],
         },
         {
           title: "I. Cambios al Aviso de Privacidad",
           body: [
             "La Empresa se reserva el derecho de modificar o actualizar en cualquier momento el contenido de este Aviso de Privacidad, para reflejar cambios en sus prácticas de tratamiento de datos, en la normativa aplicable o en los servicios ofrecidos.",
-            "Las modificaciones estarán disponibles en el sitio web y se indicará en dicho medio la fecha de la última actualización. Le recomendamos revisar este Aviso de forma periódica."
-          ]
+            "Las modificaciones estarán disponibles en el sitio web y se indicará en dicho medio la fecha de la última actualización. Le recomendamos revisar este Aviso de forma periódica.",
+          ],
         },
         {
           title: "J. Aceptación del Aviso de Privacidad",
           body: [
-            "Al utilizar el sitio web, proporcionar sus datos a través de nuestros formularios de contacto o contratar alguno de nuestros planes o proyectos digitales, usted declara que ha leído este Aviso de Privacidad y que otorga su consentimiento para el tratamiento de sus datos personales conforme a los términos aquí establecidos."
-          ]
-        }
-      ]
+            "Al utilizar el sitio web, proporcionar sus datos a través de nuestros formularios de contacto o contratar alguno de nuestros planes o proyectos digitales, usted declara que ha leído este Aviso de Privacidad y que otorga su consentimiento para el tratamiento de sus datos personales conforme a los términos aquí establecidos.",
+          ],
+        },
+      ],
     },
     en: {
+      brand: "Corevia MKT",
+      label: "Legal information",
       title: "Privacy Policy",
       date: "Last updated: July 2026",
+      contactLabel: "Privacy contact",
       sections: [
         {
           title: "A. Identity and address of the responsible party",
           body: [
-            "DIMMER POWER SHOPS, S.A DE C.V. (hereinafter, \"the Company\"), located at Av. Chapultepec N°480 Piso 9 Dep. 901, Col. Roma Norte, C.P. 06700, Alcaldía Cuauhtémoc, Mexico City, is responsible for the processing of the personal data you provide to us through the use of the GROWTHIVE.COM.MX website and the contracting of our digital services.",
-            "For any matter related to this Privacy Policy, you can contact us at the email hola@growthive.com.mx and at the phone number [+52] 1 55 5088 5510.",
-            "This Policy is issued in compliance with the Federal Law on Protection of Personal Data Held by Private Parties, its Regulations, and the Privacy Policy Guidelines."
-          ]
+            'DIMMER POWER SHOPS, S.A. DE C.V. (hereinafter, "the Company"), located at Av. Chapultepec N°480 Piso 9 Dep. 901, Col. Roma Norte, C.P. 06700, Alcaldía Cuauhtémoc, Mexico City, is responsible for processing the personal data you provide through the use of the COREVIAMKT.COM website and the contracting of our digital services.',
+            "For any matter related to this Privacy Policy, you can contact us at hola@coreviamkt.com and at the phone number [+52] 1 55 5088 5510.",
+            "This Policy is issued in compliance with the Federal Law on Protection of Personal Data Held by Private Parties, its Regulations, and the Privacy Policy Guidelines.",
+          ],
         },
         {
           title: "B. Personal data we collect",
@@ -136,8 +142,8 @@ export default function PrivacidadPage() {
             "• Billing data: Tax ID (RFC), business name, tax address, CFDI usage.",
             "• Contracting data: services or plans of interest, quote history, contracted projects, payment amounts, and dates.",
             "• Browsing data: IP address, browser type, operating system, pages visited, time spent, cookies, and similar technologies.",
-            "In principle, the Company does not request sensitive personal data; in the event that, exceptionally, it is necessary to collect this type of data, your express written consent will be requested in terms of the applicable legislation."
-          ]
+            "In principle, the Company does not request sensitive personal data; in the event that, exceptionally, it is necessary to collect this type of data, your express written consent will be requested in terms of the applicable legislation.",
+          ],
         },
         {
           title: "C. Purposes of processing",
@@ -155,18 +161,18 @@ export default function PrivacidadPage() {
             "• Send you commercial communications related to new plans, promotions, content, events, or updates about our digital services.",
             "• Conduct satisfaction surveys and internal studies on service quality and process improvement.",
             "• Prepare statistics and internal reports on contracting habits and site usage.",
-            "If you do not want your data to be processed for these secondary purposes, you can state so at any time by sending an email to hola@growthive.com.mx with the subject \"Limitation of secondary purposes\". Your refusal will not be a reason for us to deny you the contracted services."
-          ]
+            'If you do not want your data to be processed for these secondary purposes, you can state so at any time by sending an email to hola@coreviamkt.com with the subject "Limitation of secondary purposes". Your refusal will not be a reason for us to deny you the contracted services.',
+          ],
         },
         {
           title: "D. Use of cookies and similar technologies",
           body: [
-            "The growthive.com.mx site uses cookies and similar technologies that allow:",
+            "The coreviamkt.com site uses cookies and similar technologies that allow:",
             "• Facilitating navigation and remembering certain user preferences.",
             "• Analyzing traffic and site performance.",
             "• Identifying sections of greatest interest to improve content and user experience.",
-            "You can disable or delete cookies through your browser settings; however, certain site functions may not operate correctly if you do so."
-          ]
+            "You can disable or delete cookies through your browser settings; however, certain site functions may not operate correctly if you do so.",
+          ],
         },
         {
           title: "E. Personal data transfers",
@@ -176,15 +182,15 @@ export default function PrivacidadPage() {
             "• Online payment service providers and gateways, to process credit or debit card transactions or electronic means.",
             "• External advisors (accounting, tax, legal, auditing) for compliance with legal obligations.",
             "• Competent authorities, when a law, regulation, or court order so requires.",
-            "In all cases, the Company will ensure that third parties maintain the confidentiality of the information and use it solely for the purposes indicated in this Policy, adopting applicable security measures. Transfers other than the above that require your consent will be brought to your attention beforehand, in order to obtain it as required by law."
-          ]
+            "In all cases, the Company will ensure that third parties maintain the confidentiality of the information and use it solely for the purposes indicated in this Policy, adopting applicable security measures. Transfers other than the above that require your consent will be brought to your attention beforehand, in order to obtain it as required by law.",
+          ],
         },
         {
           title: "F. Means and procedure to exercise ARCO Rights",
           body: [
             "As the owner of personal data, you can exercise your rights of Access, Rectification, Cancellation, and Opposition (ARCO) at any time, as well as revoke the consent granted, under the terms provided by the Law.",
             "To exercise these rights, you must send a request to:",
-            "Email: hola@growthive.com.mx",
+            "Email: hola@coreviamkt.com",
             "Address: Av. Chapultepec N°480 Piso 9 Dep. 901, Col. Roma Norte, C.P. 06700, Alcaldía Cuauhtémoc, Mexico City",
             "Your request must contain at least:",
             "• Full name and a means to communicate the response (address, email, or phone number).",
@@ -192,58 +198,176 @@ export default function PrivacidadPage() {
             "• Clear and precise description of the personal data regarding which you seek to exercise any of the ARCO rights.",
             "• Any element that facilitates the location of the data (e.g., hiring date, project number, email used).",
             "• In the case of rectification, the description of the modifications to be made and the documentation supporting your request.",
-            "The Company will acknowledge receipt of your request within the deadlines established by law and will respond within the corresponding legal term, informing whether it is accepted."
-          ]
+            "The Company will acknowledge receipt of your request within the deadlines established by law and will respond within the corresponding legal term, informing whether it is accepted.",
+          ],
         },
         {
           title: "G. Options to limit the use or disclosure of your data",
           body: [
-            "In addition to exercising ARCO rights, you can limit the use or disclosure of your personal data for promotional purposes by communicating to hola@growthive.com.mx indicating your full name and the scope of the requested limitation (for example, \"I do not wish to receive promotional emails\").",
-            "The Company will add your record to the corresponding internal exclusion lists to prevent the sending of communications with those characteristics."
-          ]
+            'In addition to exercising ARCO rights, you can limit the use or disclosure of your personal data for promotional purposes by contacting hola@coreviamkt.com and indicating your full name and the scope of the requested limitation (for example, "I do not wish to receive promotional emails").',
+            "The Company will add your record to the corresponding internal exclusion lists to prevent the sending of communications with those characteristics.",
+          ],
         },
         {
           title: "H. Information Security",
           body: [
             "The Company implements administrative, technical, and physical security measures to protect your personal data against damage, loss, alteration, destruction, or unauthorized use, access, or processing.",
-            "Among others, information access controls, the use of secure connections in systems that require it, internal data management policies, and confidentiality agreements with personnel and suppliers who have contact with the information are applied."
-          ]
+            "Among others, information access controls, the use of secure connections in systems that require it, internal data management policies, and confidentiality agreements with personnel and suppliers who have contact with the information are applied.",
+          ],
         },
         {
           title: "I. Changes to the Privacy Policy",
           body: [
             "The Company reserves the right to modify or update the content of this Privacy Policy at any time to reflect changes in its data processing practices, applicable regulations, or offered services.",
-            "The modifications will be available on the website, and the date of the last update will be indicated therein. We recommend that you review this Policy periodically."
-          ]
+            "The modifications will be available on the website, and the date of the last update will be indicated therein. We recommend that you review this Policy periodically.",
+          ],
         },
         {
           title: "J. Acceptance of the Privacy Policy",
           body: [
-            "By using the website, providing your data through our contact forms, or contracting any of our digital plans or projects, you declare that you have read this Privacy Policy and give your consent to the processing of your personal data under the terms established herein."
-          ]
-        }
-      ]
-    }
+            "By using the website, providing your data through our contact forms, or contracting any of our digital plans or projects, you declare that you have read this Privacy Policy and give your consent to the processing of your personal data under the terms established herein.",
+          ],
+        },
+      ],
+    },
   };
 
   const t = content[lang] || content.es;
 
   return (
-    <main className="min-h-screen bg-cream-paper py-20 sm:py-32">
-      <div className="container mx-auto max-w-4xl px-4 sm:px-6">
-        <h1 className="display text-4xl font-bold text-ink sm:text-5xl">{t.title}</h1>
-        <p className="mt-4 font-mono text-sm uppercase tracking-widest text-clay">{t.date}</p>
-        <div className="mt-12 space-y-12">
+    <main className="relative min-h-screen overflow-hidden bg-[#f5f7f2] py-20 sm:py-28">
+      <div className="pointer-events-none absolute inset-0">
+        <div className="absolute -left-32 top-20 h-80 w-80 rounded-full bg-[#d8ff65]/25 blur-3xl" />
+        <div className="absolute -right-32 top-1/3 h-96 w-96 rounded-full bg-[#56c5a8]/15 blur-3xl" />
+        <div className="absolute bottom-0 left-1/3 h-72 w-72 rounded-full bg-[#183c34]/10 blur-3xl" />
+      </div>
+
+      <div className="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+        <header className="relative overflow-hidden rounded-[2rem] bg-[#102e28] px-6 py-10 text-white shadow-[0_30px_80px_-35px_rgba(16,46,40,0.55)] sm:px-10 sm:py-14 lg:px-14">
+          <div className="absolute right-0 top-0 h-72 w-72 translate-x-1/3 -translate-y-1/3 rounded-full border border-white/10" />
+          <div className="absolute right-12 top-12 h-40 w-40 rounded-full border border-[#d8ff65]/20" />
+
+          <div className="relative max-w-4xl">
+            <div className="mb-8 flex flex-wrap items-center gap-3">
+              <span className="rounded-full bg-[#d8ff65] px-4 py-2 text-xs font-bold uppercase tracking-[0.2em] text-[#102e28]">
+                {t.brand}
+              </span>
+
+              <span className="rounded-full border border-white/15 bg-white/5 px-4 py-2 text-xs font-medium uppercase tracking-[0.18em] text-white/70 backdrop-blur-sm">
+                {t.label}
+              </span>
+            </div>
+
+            <h1 className="display max-w-4xl text-4xl font-bold leading-tight tracking-[-0.04em] text-white sm:text-5xl lg:text-6xl">
+              {t.title}
+            </h1>
+
+            <div className="mt-7 border-l-2 border-[#d8ff65] pl-5">
+              <p className="font-mono text-xs uppercase tracking-[0.16em] text-[#d8ff65]">
+                {t.date}
+              </p>
+            </div>
+          </div>
+        </header>
+
+        <div className="mx-auto -mt-5 max-w-5xl px-3 sm:px-6">
+          <div className="relative grid gap-5 rounded-3xl border border-[#183c34]/10 bg-white/90 p-6 shadow-[0_25px_60px_-35px_rgba(16,46,40,0.4)] backdrop-blur-xl sm:grid-cols-2 sm:p-8">
+            <div className="absolute left-0 top-8 h-12 w-1 rounded-r-full bg-[#56c5a8]" />
+
+            <div className="pl-3">
+              <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#648078]">
+                {t.contactLabel}
+              </p>
+
+              <a
+                href="mailto:hola@coreviamkt.com"
+                className="mt-2 inline-block text-lg font-semibold text-[#102e28] transition hover:text-[#168267]"
+              >
+                hola@coreviamkt.com
+              </a>
+            </div>
+
+            <div className="border-t border-[#183c34]/10 pt-5 sm:border-l sm:border-t-0 sm:pl-8 sm:pt-0">
+              <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#648078]">
+                {lang === "en" ? "Website" : "Sitio web"}
+              </p>
+
+              <a
+                href="https://coreviamkt.com"
+                target="_blank"
+                rel="noreferrer"
+                className="mt-2 inline-block text-lg font-semibold text-[#102e28] transition hover:text-[#168267]"
+              >
+                coreviamkt.com
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="mx-auto mt-14 max-w-5xl space-y-5 sm:mt-16">
           {t.sections.map((sec, i) => (
-            <section key={i}>
-              <h2 className="display mb-4 text-2xl font-semibold text-ink">{sec.title}</h2>
-              <div className="space-y-3 text-[0.95rem] leading-relaxed text-ink/80">
-                {sec.body.map((paragraph, j) => (
-                  <p key={j}>{paragraph}</p>
-                ))}
+            <section
+              key={i}
+              className="group rounded-[1.75rem] border border-[#183c34]/10 bg-white/80 p-6 shadow-[0_20px_50px_-40px_rgba(16,46,40,0.55)] backdrop-blur-sm transition duration-300 hover:-translate-y-1 hover:border-[#56c5a8]/40 hover:bg-white hover:shadow-[0_28px_65px_-38px_rgba(16,46,40,0.45)] sm:p-8"
+            >
+              <div className="flex flex-col gap-5 sm:flex-row sm:items-start">
+                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-[#e8f7ef] text-sm font-bold text-[#12624f] transition duration-300 group-hover:bg-[#d8ff65] group-hover:text-[#102e28]">
+                  {String(i + 1).padStart(2, "0")}
+                </div>
+
+                <div className="min-w-0 flex-1">
+                  <h2 className="display text-xl font-semibold leading-snug tracking-[-0.02em] text-[#102e28] sm:text-2xl">
+                    {sec.title}
+                  </h2>
+
+                  <div className="mt-5 space-y-3 text-[0.95rem] leading-7 text-[#50625d]">
+                    {sec.body.map((paragraph, j) => {
+                      const isBullet = paragraph.startsWith("•");
+                      const isContactLine =
+                        paragraph.startsWith("Correo electrónico:") ||
+                        paragraph.startsWith("Email:") ||
+                        paragraph.startsWith("Domicilio:") ||
+                        paragraph.startsWith("Address:");
+
+                      return (
+                        <p
+                          key={j}
+                          className={
+                            isBullet
+                              ? "rounded-xl bg-[#f4f8f5] px-4 py-3 text-[#40534e]"
+                              : isContactLine
+                                ? "rounded-xl border border-[#56c5a8]/20 bg-[#eff9f5] px-4 py-3 font-medium text-[#173f36]"
+                                : undefined
+                          }
+                        >
+                          {paragraph}
+                        </p>
+                      );
+                    })}
+                  </div>
+                </div>
               </div>
             </section>
           ))}
+        </div>
+
+        <div className="mx-auto mt-14 max-w-5xl overflow-hidden rounded-3xl bg-[#102e28]">
+          <div className="relative px-6 py-9 text-center sm:px-10">
+            <div className="absolute -right-12 -top-12 h-36 w-36 rounded-full border border-white/10" />
+
+            <p className="relative text-sm leading-7 text-white/70">
+              {lang === "en"
+                ? "For questions about the processing of your personal data, contact us at"
+                : "Para cualquier duda sobre el tratamiento de sus datos personales, escríbanos a"}
+            </p>
+
+            <a
+              href="mailto:hola@coreviamkt.com"
+              className="relative mt-2 inline-block text-lg font-semibold text-[#d8ff65] transition hover:text-white"
+            >
+              hola@coreviamkt.com
+            </a>
+          </div>
         </div>
       </div>
     </main>

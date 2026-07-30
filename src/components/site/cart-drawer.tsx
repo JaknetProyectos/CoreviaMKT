@@ -234,7 +234,7 @@ export function CartDrawer() {
                 asChild
                 variant="cream"
                 size="lg"
-                className="group mt-4 h-13 w-full justify-between rounded-[1.2rem] border-0 bg-[#d8ff65] px-5 font-semibold text-[#102e28] shadow-[0_18px_45px_-18px_rgba(216,255,101,0.5)] transition-all duration-300 hover:bg-white"
+                className="group mt-4  w-full justify-between rounded-[1.2rem] border-0 bg-[#d8ff65] px-5 font-semibold text-[#102e28] shadow-[0_18px_45px_-18px_rgba(216,255,101,0.5)] transition-all duration-300 hover:bg-white"
                 onClick={close}
               >
                 <Link href="/checkout">

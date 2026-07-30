@@ -55,7 +55,7 @@ export function Header() {
             {t.header.ticker.map((text, i) => (
               <span
                 key={i}
-                className="flex items-center gap-10 whitespace-nowrap font-mono text-[0.61rem] font-bold uppercase tracking-[0.22em] text-white/65 sm:text-[0.64rem]"
+                className="flex items-center gap-10 whitespace-nowrap font-mono text-[0.61rem] font-bold  text-white/65 sm:text-[0.64rem]"
               >
                 {text}
 
@@ -105,7 +105,7 @@ export function Header() {
                     key={link.href}
                     href={link.href}
                     className={cn(
-                      "relative rounded-full px-4 py-2.5 font-mono text-[0.66rem] font-bold uppercase tracking-[0.14em] transition-all duration-300 lg:px-5",
+                      "relative rounded-full px-4 py-2.5 font-mono font-bold  transition-all duration-300 lg:px-5",
                       active
                         ? "bg-[#102e28] text-[#d8ff65] shadow-[0_10px_25px_-15px_rgba(16,46,40,0.8)]"
                         : "text-[#102e28]/60 hover:bg-white hover:text-[#168267]",
@@ -260,13 +260,13 @@ export function Header() {
                     </nav>
 
                     {/* CTA móvil */}
-                    <div className="border-t border-white/10 px-7 py-7">
+                    <div className="border-t border-white/10 px-7">
                       <SheetClose asChild>
                         <Button
                           asChild
                           variant="cream"
                           size="lg"
-                          className="h-13 w-full justify-between rounded-2xl border-0 bg-[#d8ff65] px-5 font-semibold text-[#102e28] shadow-none transition-colors hover:bg-white"
+                          className="w-full justify-between rounded-2xl border-0 py-5 bg-[#d8ff65] px-5 font-semibold text-[#102e28] shadow-none transition-colors hover:bg-white"
                         >
                           <Link href="/contacto">
                             {t.header.cta}
@@ -278,7 +278,7 @@ export function Header() {
                         </Button>
                       </SheetClose>
 
-                      <p className="mt-5 break-all font-mono text-[0.62rem] uppercase leading-5 tracking-[0.14em] text-white/30">
+                      <p className="mt-5 break-all font-mono text-[0.62rem]  leading-5 tracking-[0.14em] text-white/30">
                         {t.header.contactEmail}
                       </p>
                     </div>

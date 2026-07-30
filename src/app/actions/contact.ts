@@ -59,22 +59,67 @@ export async function processContact(payload: ContactPayload) {
     const t = texts[lang] || texts["es"];
 
     const emailBody = `
-      <div style="font-family: Arial, sans-serif; max-w: 600px; margin: 0 auto; color: #333;">
-        <h2 style="color: #ce4b2a;">${t.title}</h2>
-        <p>${t.hello} <strong>${form.nombre}</strong>,</p>
-        <p>${t.intro}</p>
-        
-        <h3 style="margin-top: 30px;">${t.details}</h3>
-        <p><strong>${t.name}</strong> ${form.nombre}<br/>
-        <strong>${t.email}</strong> ${form.correo}<br/>
-        <strong>${t.phone}</strong> ${form.telefono || "N/A"}<br/>
-        <strong>${t.subject}</strong> ${form.asunto || "N/A"}<br/>
-        <strong>${t.message}</strong><br/>
-        ${form.mensaje}</p>
-
-        <p style="margin-top: 30px; font-size: 12px; color: #888;">${t.footer}</p>
+  <div style="font-family: Arial, sans-serif; background-color: #f4f6f5; padding: 40px 20px; color: #111827;">
+    <div style="max-width: 600px; margin: 0 auto; background-color: #ffffff; border-radius: 16px; border: 1px solid #e5e7eb; padding: 40px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);">
+      
+      <!-- Header / Título -->
+      <div style="border-bottom: 2px solid #065f46; padding-bottom: 20px; margin-bottom: 24px;">
+        <span style="font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; color: #065f46; font-weight: bold; display: block; margin-bottom: 6px;">Notificación de Contacto</span>
+        <h2 style="color: #111827; font-size: 24px; margin: 0; font-weight: 700;">${t.title}</h2>
       </div>
-    `;
+
+      <!-- Saludo e introducción -->
+      <p style="font-size: 16px; line-height: 1.5; color: #374151; margin-bottom: 12px;">
+        ${t.hello} <strong>${form.nombre}</strong>,
+      </p>
+      <p style="font-size: 15px; line-height: 1.5; color: #4b5563; margin-bottom: 28px;">
+        ${t.intro}
+      </p>
+      
+      <!-- Tarjeta de Detalles -->
+      <div style="background-color: #f9fafb; border: 1px solid #e5e7eb; border-radius: 12px; padding: 24px; margin-bottom: 24px;">
+        <h3 style="font-size: 13px; font-weight: 700; color: #374151; margin-top: 0; margin-bottom: 16px; text-transform: uppercase; letter-spacing: 1px;">
+          ${t.details}
+        </h3>
+        
+        <table style="width: 100%; border-collapse: collapse; font-size: 14px; color: #374151;">
+          <tr>
+            <td style="padding: 8px 0; font-weight: bold; width: 32%; color: #4b5563; vertical-align: top;">${t.name}:</td>
+            <td style="padding: 8px 0; color: #111827; vertical-align: top;">${form.nombre}</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px 0; font-weight: bold; color: #4b5563; vertical-align: top;">${t.email}</td>
+            <td style="padding: 8px 0; color: #111827; vertical-align: top;">${form.correo}</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px 0; font-weight: bold; color: #4b5563; vertical-align: top;">${t.phone}</td>
+            <td style="padding: 8px 0; color: #111827; vertical-align: top;">${form.telefono || "N/A"}</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px 0; font-weight: bold; color: #4b5563; vertical-align: top;">${t.subject}</td>
+            <td style="padding: 8px 0; color: #111827; vertical-align: top;">${form.asunto || "N/A"}</td>
+          </tr>
+        </table>
+
+        <!-- Bloque de Mensaje -->
+        <div style="margin-top: 18px; border-top: 1px solid #e5e7eb; padding-top: 16px;">
+          <strong style="display: block; font-size: 13px; font-weight: bold; color: #4b5563; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px;">${t.message}:</strong>
+          <div style="background-color: #ffffff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 14px; color: #111827; font-size: 14px; line-height: 1.6;">
+            ${form.mensaje}
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div style="border-top: 1px solid #e5e7eb; padding-top: 20px; text-align: center;">
+        <p style="font-size: 12px; color: #9ca3af; margin: 0; line-height: 1.4;">
+          ${t.footer}
+        </p>
+      </div>
+
+    </div>
+  </div>
+`;
 
     // 1. Correo de confirmación al cliente
     await resend.emails.send({

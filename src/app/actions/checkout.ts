@@ -250,27 +250,73 @@ async function enviarCorreos(
   `).join("");
 
   const emailBody = `
-    <div style="font-family: Arial, sans-serif; max-w: 600px; margin: 0 auto; color: #333;">
-      <h2 style="color: #ce4b2a;">${t.title}</h2>
-      <p>${t.hello} <strong>${form.nombre}</strong>,</p>
-      <p>${t.intro}</p>
+  <div style="font-family: Arial, sans-serif; background-color: #f4f6f5; padding: 40px 20px; color: #111827;">
+    <div style="max-width: 600px; margin: 0 auto; background-color: #ffffff; border-radius: 16px; border: 1px solid #e5e7eb; padding: 40px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);">
       
-      <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
-        ${itemsListHtml}
-        <tr>
-          <td style="padding: 10px; font-weight: bold; text-align: right;">${t.totalPaid}</td>
-          <td style="padding: 10px; font-weight: bold; text-align: right; color: #ce4b2a;">$${totals.total.toFixed(2)} MXN</td>
-        </tr>
-      </table>
+      <!-- Header / Título -->
+      <div style="border-bottom: 2px solid #065f46; padding-bottom: 20px; margin-bottom: 24px;">
+        <span style="font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; color: #065f46; font-weight: bold; display: block; margin-bottom: 6px;">Confirmación de Pedido</span>
+        <h2 style="color: #111827; font-size: 24px; margin: 0; font-weight: 700;">${t.title}</h2>
+      </div>
 
-      <h3 style="margin-top: 30px;">${t.clientData}</h3>
-      <p><strong>${t.emailLabel}</strong> ${form.email}<br/>
-      <strong>${t.phoneLabel}</strong> ${form.telefono}<br/>
-      <strong>${t.companyLabel}</strong> ${form.empresa || "N/A"} / ${form.rfc || "N/A"}</p>
+      <!-- Saludo e introducción -->
+      <p style="font-size: 16px; line-height: 1.5; color: #374151; margin-bottom: 12px;">
+        ${t.hello} <strong>${form.nombre}</strong>,
+      </p>
+      <p style="font-size: 15px; line-height: 1.5; color: #4b5563; margin-bottom: 28px;">
+        ${t.intro}
+      </p>
+      
+      <!-- Tarjeta de Resumen de Productos -->
+      <div style="background-color: #f9fafb; border: 1px solid #e5e7eb; border-radius: 12px; padding: 24px; margin-bottom: 24px;">
+        <h3 style="font-size: 13px; font-weight: 700; color: #374151; margin-top: 0; margin-bottom: 16px; text-transform: uppercase; letter-spacing: 1px;">
+          Resumen de Artículos
+        </h3>
+        
+        <table style="width: 100%; border-collapse: collapse; font-size: 14px; color: #374151;">
+          ${itemsListHtml}
+          <tr>
+            <td colspan="2" style="border-top: 1px solid #e5e7eb; padding-top: 14px; padding-bottom: 4px;"></td>
+          </tr>
+          <tr>
+            <td style="padding: 4px 0; font-weight: bold; color: #111827;">${t.totalPaid}</td>
+            <td style="padding: 4px 0; font-weight: bold; text-align: right; color: #065f46; font-size: 16px;">$${totals.total.toFixed(2)} MXN</td>
+          </tr>
+        </table>
+      </div>
 
-      <p style="margin-top: 30px; font-size: 12px; color: #888;">${t.footer}</p>
+      <!-- Tarjeta de Datos del Cliente -->
+      <div style="background-color: #f9fafb; border: 1px solid #e5e7eb; border-radius: 12px; padding: 24px; margin-bottom: 24px;">
+        <h3 style="font-size: 13px; font-weight: 700; color: #374151; margin-top: 0; margin-bottom: 16px; text-transform: uppercase; letter-spacing: 1px;">
+          ${t.clientData}
+        </h3>
+        
+        <table style="width: 100%; border-collapse: collapse; font-size: 14px; color: #374151;">
+          <tr>
+            <td style="padding: 6px 0; font-weight: bold; width: 35%; color: #4b5563; vertical-align: top;">${t.emailLabel}:</td>
+            <td style="padding: 6px 0; color: #111827; vertical-align: top;">${form.email}</td>
+          </tr>
+          <tr>
+            <td style="padding: 6px 0; font-weight: bold; color: #4b5563; vertical-align: top;">${t.phoneLabel}:</td>
+            <td style="padding: 6px 0; color: #111827; vertical-align: top;">${form.telefono}</td>
+          </tr>
+          <tr>
+            <td style="padding: 6px 0; font-weight: bold; color: #4b5563; vertical-align: top;">${t.companyLabel}:</td>
+            <td style="padding: 6px 0; color: #111827; vertical-align: top;">${form.empresa || "N/A"} / ${form.rfc || "N/A"}</td>
+          </tr>
+        </table>
+      </div>
+
+      <!-- Footer -->
+      <div style="border-top: 1px solid #e5e7eb; padding-top: 20px; text-align: center;">
+        <p style="font-size: 12px; color: #9ca3af; margin: 0; line-height: 1.4;">
+          ${t.footer}
+        </p>
+      </div>
+
     </div>
-  `;
+  </div>
+`;
 
   try {
     await resend.emails.send({

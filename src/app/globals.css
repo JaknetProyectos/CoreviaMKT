@@ -4,6 +4,9 @@
 
 @layer base {
   :root {
+    --font-fraunces: "Fraunces Variable", Georgia, serif;
+    --font-hanken: "Hanken Grotesk Variable", Arial, Helvetica, sans-serif;
+    --font-jetbrains: "JetBrains Mono Variable", Consolas, monospace;
     --background: 39 43% 92%;
     --foreground: 30 26% 10%;
     --card: 41 55% 95%;
@@ -51,6 +54,7 @@
     @apply bg-background text-foreground font-sans;
     font-feature-settings: "ss01", "cv01", "cv11";
     -webkit-font-smoothing: antialiased;
+    font-family: var(--font-hanken);
   }
 
   ::selection {
@@ -195,4 +199,18 @@
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-fraunces);
+}
+
+code,
+pre {
+  font-family: var(--font-jetbrains);
 }
